@@ -1,0 +1,62 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-left: 4px solid #3498db;
+  background: #ecf6fd;
+}
+
+
+
+blockquote cite {
+  display: block;
+  text-align: right;
+  color: #3498db;
+  margin-top: 2px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #EFEEF6;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;     
+}
+
+.mycontainer {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;              
+}
+
+
+p {
+  margin: 15px 0;
+}

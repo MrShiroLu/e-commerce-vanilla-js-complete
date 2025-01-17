@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #f4f4f4;
+}
+
 :root {
   --black: #1c2a39;
   --gray: #5c6a79;
@@ -305,4 +309,45 @@
 
 .total__price:empty + .btn__purple {
   display: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a h2 {
+  color: black
+}
+
+div.mycontainer {
+  width:100%;
+  
+}
+
+div.mycontainer div {
+  width: 20%;
+  float:left;
+}
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #EFEEF6;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;     
+}
+
+.mycontainer {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;              
+}
+
+ul li {
+  list-style-type: none;
 }

@@ -25,7 +25,7 @@ const toggleModal = () => {
 };
 
 const getBooks = () => {
-  fetch("./products.json")
+  fetch("./audio_products.json")
     .then((res) => res.json())
     .then((books) => (bookList = books));
 };

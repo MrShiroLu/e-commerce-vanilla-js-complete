@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nomet | Kitap Mağazası</title>
+    <link rel="icon" href="./assets/icon.png">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/toastr/toastr.min.css" />
+    <link rel="stylesheet" href="about_style.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <nav class="navbar">
+    <a href="index.html"><h2 class="title">Nomet Books</h2></a>
+    <ul class="menu">
+      <a href="index.html"><li>Kitaplar</li></a>
+      <a href="audio.html"><li>Sesli Kitaplar</li></a>
+      <li class="active">Hakkında</li>
+    </ul>
+    <ul class="menu__icons">
+      <li><i class="bi bi-person"></i></li>
+      <li><i class="bi bi-search"></i></li>
+      <li class="basket__icon" onclick="toggleModal()">
+        <i class="bi bi-bag"></i>
+        <span class="basket__count"></span>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="basket__modal">
+    <div class="basket__items">
+      <i class="bi bi-x" onclick="toggleModal()"></i>
+      <h2 class="basket__title">Kitaplarınız</h2>
+      <ul class="basket__list">
+        <li class="basket__item">Sepetiniz boş.</li>
+      </ul>
+      <div class="basket__total">
+        <span class="fw-bold mb-3 fs-4 total__price"></span>
+        <button class="btn__purple">Devam Et</button>
+      </div>
+    </div>
+  </div>
+  <script
+    type="text/javascript"
+    src="assets/bootstrap/js/bootstrap.min.js"
+  ></script>
+<script src="./assets/jquery/jquery.min.js"></script>
+<script src="./assets/toastr/toastr.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+  
+  <div class="container">
+    <h1>Hakkımızda</h1>
+    <p>Kitaplar, insan ruhunun derinliklerine inen ve geçmişle geleceği birbirine bağlayan bir köprü gibidir. Her biri, bir dünya sunar; bir düşünceye, bir aşka ya da bir yolculuğa tanıklık eder. Bu site, bu büyülü dünyanın kapılarını sizlere aralamak için tasarlandı.</p>
+    <p>Kelime ve cümlelerin büyüsü, bazen yalnızlığımıza eşlik ederken, bazen de yeni ufuklar açar. Bir sayfanın köşesinde, belki de kendimizi buluruz. Kitaplar, yalnızca anlatmaz; bize öğretir, hissettirir ve bizi dönüştürür.</p>
+    <blockquote>
+        Okumak, bir insanı tamamlanmamış bir müzik parçası gibi yeniden bestelemek gibidir.
+        <cite>— Franz Kafka</cite>
+    </blockquote>
+    <p>Her kitabın bir hikayesi, her okuyucunun da kendine özgü bir yorumu vardır. Biz, bu farklı hikayeleri bir araya getirerek zengin bir okuma deneyimi sunmayı amaçlıyoruz. Kitap sayfalarının kokusu, zihnimizde yankılanan cümlelerin melodisi, burada yeniden hayat buluyor.</p>
+    <p>Kitap okumak, yalnızca bilgi edinmek değildir; ruhumuzu, zihnimizi ve hayal gücümüzü besleyen bir yolculuktur. Bu yüzden burada yalnızca kitapları değil, onların içindeki büyülü dünyaları da paylaşmak istiyoruz.</p>
+    <blockquote>
+        Hayal gücü bilgiden daha önemlidir. Çünkü bilgi sınırlıdır, ama hayal gücü tüm dünyayı kucaklar.
+        <cite>— Albert Einstein</cite>
+    </blockquote>
+    <p>Bu platform, kitaplara adanmış bir yolculuk. İster eski bir klasik, ister yepyeni bir roman olsun, her kitap bir hikaye taşır. Her okuyucunun bu hikayeyi kendine has bir şekilde deneyimlemesini istiyoruz.</p>
+    <blockquote>
+        Her kitap, ruhunuzu genişletir; her hikaye, size yeni bir dünya sunar.
+        <cite>— Victor Hugo</cite>
+    </blockquote>
+    <p>Hayat, bir yolculuktur ve bu yolculukta bize eşlik eden en güzel şeylerden biri kitapların rehberliğidir. Biz, bu yolculukta size eşlik etmeyi umut ediyoruz. Çünkü her sayfa, yeni bir başlangıç ve her kitap, farklı bir maceradır.</p>
+    <p>Unutmayalım ki, kitaplar sadece bireysel hayatımızı değil, toplumların kaderini de şekillendiren birer hazinedir. Okuyarak, öğrenerek ve sorgulayarak daha aydınlık bir geleceğin kapılarını aralayabiliriz.</p>
+    <blockquote>
+      Kitapsız büyüyen çocuk, susuz ağaca benzer.
+        <cite>— Mustafa Kemal Atatürk</cite>
+    </blockquote>
+  </div>
+  <footer>
+    <div class="mycontainer">
+      <div>
+        <h4>Misyonumuz</h4>
+        <p>Okumanın dönüştürücü gücüne inanıyoruz. Misyonumuz, her yaştan ve ilgi alanından okura hitap eden kitaplarla bilgiye, hayal gücüne ve ilhama açılan kapılar sunmak. Kitaplarla bir araya gelerek bireyleri zenginleştiren, toplumu geliştiren bir okuma kültürü oluşturmayı amaçlıyoruz</p>
+        <br>
+        <p>"Okuma, insanı tamamlar." – Francis Bacon</p>
+      </div>  
+      <div>
+        <ul>
+          <a href="index.html"><li style="font-size: x-large;">Kitaplar</li></a>
+          <br>
+          <a href="audio.html"><li style="font-size: x-large;">Sesli Kitaplar</li></a>
+          <br>
+          <a href="about.html"><li style="font-size: x-large;">Hakkında</li></a>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h4>Bizi Takip Edin</h4>
+          <a href="https://www.instagram.com/dr_dunyasi"><img src="./assets/images/icons/insta.png" alt="instagram icon" width="44"></a>
+          <a href="https://www.facebook.com/DRdunyasi"><img src="./assets/images/icons/facebook.png" alt="facebook icon" width="45"></a>
+          <a href="https://www.youtube.com/user/DRDunyasi"><img src="./assets/images/icons/youtube.png" alt="youtube icon" width="50"></a>
+          <a href="https://x.com/DRDunyasi"><img src="./assets/images/icons/x.png" alt="x icon" width="45"></a>
+        </ul>
+      </div>
+        </footer>   
+</body>
+</html>
