@@ -40,8 +40,3 @@ If you want to contribute to the project:
 3. Make your changes and commit them.
 4. Push to your repository: `git push origin new-feature`
 5. Open a Pull Request (PR).
-
----
-
-If you have any questions or suggestions, feel free to open an issue in the repository! 🚀
-
